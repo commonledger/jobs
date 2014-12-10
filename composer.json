@@ -17,10 +17,10 @@
         }
     },
     "require": {
-        "commonledger/sdk": "master"
+
     },
     "support": {
-        "issues": "https://github.org/commonledger/career/issues"
+        "issues": "https://github.org/commonledger/jobs/issues"
     },
-    "license": "CCU1.0"
+    "license": "CC0 1.0"
 }
