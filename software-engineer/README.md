@@ -25,7 +25,7 @@ Now, there are no further instructions. It is up to __you__ to make this work, f
 When successful, you will receive a relative response to the comment; 
 
 ``
-"A Volkswagen Karmann Ghia has no radiator." 
+"Why did the chicken cross the road?"
 ``
 
 This means your details have been successfully sent to us and we will be in touch shortly.

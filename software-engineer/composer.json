@@ -10,14 +10,14 @@
             "homepage": "http://www.commonledger.com"
         }
     ],
-    "keywords": ["commonledger", "career"],
+    "keywords": ["commonledger", "jobs", "software-engineer"],
     "autoload": {
         "psr-4": {
-            "CommonLedger\\Career\\": "lib/"
+            "CommonLedger\\Jobs\\SoftwareEngineer\\Commands\\": "library/"
         }
     },
     "require": {
-
+        "cilex/cilex":  "1.1.*"
     },
     "support": {
         "issues": "https://github.org/commonledger/jobs/issues"
