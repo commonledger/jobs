@@ -1,11 +1,11 @@
 {
-    "name": "commonledger/jobs",
+    "name": "commonledger/jobs/software-engineer",
     "version": "1.0",
     "description": "We're always looking for talent like you, if you can pass this test.",
     "homepage": "http://www.commonledger.com/",
     "authors": [
         {
-            "name": "Common Ledger Jobs",
+            "name": "Common Ledger Job - PHP Software Engineer",
             "email": "hello@commonledger.com",
             "homepage": "http://www.commonledger.com"
         }
