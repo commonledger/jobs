@@ -1,0 +1,26 @@
+{
+    "name": "commonledger/jobs",
+    "version": "1.0",
+    "description": "We're always looking for talent like you, if you can pass this test.",
+    "homepage": "http://www.commonledger.com/",
+    "authors": [
+        {
+            "name": "Common Ledger Jobs",
+            "email": "hello@commonledger.com",
+            "homepage": "http://www.commonledger.com"
+        }
+    ],
+    "keywords": ["commonledger", "career"],
+    "autoload": {
+        "psr-4": {
+            "CommonLedger\\Career\\": "lib/"
+        }
+    },
+    "require": {
+        "commonledger/sdk": "master"
+    },
+    "support": {
+        "issues": "https://github.org/commonledger/career/issues"
+    },
+    "license": "CCU1.0"
+}
