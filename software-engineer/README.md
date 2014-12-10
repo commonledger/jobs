@@ -2,7 +2,7 @@
 
 We're looking for a PHP Software Engineer, we want it to be you, but first you need to pass this test.
 
-## Prequistes
+## Prerequisites
 
 We expect you have knowledge of the following:
 
