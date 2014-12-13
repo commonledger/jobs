@@ -42,8 +42,9 @@ class SendToken extends \Cilex\Command\Command
 
         // Building the structure of the request to the CL Job API
         $json = array(
-            'code'  =>  array(),
-            'token' =>  $token
+            'question'  => "Why did the chicken cross the road?",
+            'token'     =>  $token,
+            'code'      =>  array()
         );
 
         // Getting code of Commands inside ./command
