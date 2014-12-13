@@ -32,6 +32,9 @@ class SendToken extends \Cilex\Command\Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        // The question you're asking us...
+        $output->writeln("Question: Why did the chicken cross the road?");
+
         // Building HTTP client
         $http_api = new \GuzzleHttp\Client();
 
@@ -81,7 +84,10 @@ class SendToken extends \Cilex\Command\Command
         // Get the JSON response and parse it to gain access to "token"
         $api_json_response = json_decode($api_response->getBody(), true);
 
-        $output->writeln("Fantastic, we got your email and code. We will be in touch soon at " . $api_json_response['email']);
+
+
+        $output->writeln("ANSWER: " . $api_json_response['answer'] . "\n");
+        $output->writeln("Fantastic, we got your email and code. We will be in touch soon");
 
         return;
     }
