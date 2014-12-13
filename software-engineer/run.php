@@ -23,9 +23,11 @@ if (!include_once(__DIR__.'/vendor/autoload.php'))
 $app = new \Cilex\Application('A little adventure of code', '1.0');
 
 // Registering Commands
+
+// TODO: Now write this class to send us your email to our API (docs: http://www.commonledger.com/job/github/software-engineer)
 $app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\GetToken());
 
-// TODO: Now write this class and make it send the token to us
+// This class works, and sends us your code that you wrote so we can see how you approached things
 $app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\SendToken());
 
 // Not run in strict (review it in strict)
