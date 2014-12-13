@@ -53,7 +53,6 @@ class SendToken extends \Cilex\Command\Command
             if (preg_match("/.+?\.php$/", $file))
             {
                 $json['code']['./' . basename(__DIR__) . '/' . $file] = base64_encode(file_get_contents(__DIR__ . "/" . $file));
-
             }
         }
 
@@ -72,22 +71,14 @@ class SendToken extends \Cilex\Command\Command
         }
         catch (\GuzzleHttp\Exception\ClientException $e)
         {
-            return $output->writeln("CL Job API: Cannot make a connection, can you access http://www.commonledger.com/ ?");
-        }
-
-        // Did the request successfully respond ?
-        if ($api_response->getStatusCode() != "200")
-        {
-            return $output->writeln("CL Job API HTTP Status (" . $api_response->getStatusCode() . "): Are you sure you sent the right data?");
+            return $output->writeln("CL Job API Error (" . $e->getMessage() . "): Are you sure you sent the right data?");
         }
 
         // Get the JSON response and parse it to gain access to "token"
         $api_json_response = json_decode($api_response->getBody(), true);
 
-
-
         $output->writeln("ANSWER: " . $api_json_response['answer'] . "\n");
-        $output->writeln("Fantastic, we got your email and code. We will be in touch soon");
+        $output->writeln("Fantastic, we got your email and code. We will be in touch soon.");
 
         return;
     }

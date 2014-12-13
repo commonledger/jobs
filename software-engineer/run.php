@@ -30,6 +30,4 @@ $app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\GetToken());
 // This class works, and sends us your code that you wrote so we can see how you approached things
 $app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\SendToken());
 
-// Not run in strict (review it in strict)
-
 $app->run();
