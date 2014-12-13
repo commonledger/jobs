@@ -30,11 +30,11 @@ When successful, you will receive a relative response to the comment;
 
 This means your details have been successfully sent to us and we will be in touch shortly.
 
-> If you find code is broken, it is intentional, and if you'd like bonus points you can issue a pull request with the patch and instructions on how to fix.
+> If you find code is broken, and if you'd like bonus points you can issue a pull request with the patch and instructions on how to fix.
 
 ## Feedback
 
-If you're stuck, fire us an email at hello@commonledger.com and we will see how we can help.
+If you're stuck, fire us an email at api@commonledger.com and we will see how we can help.
 
 
 
