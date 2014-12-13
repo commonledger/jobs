@@ -1,7 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-
 // Add PHP "Strict Mode"
 error_reporting( E_ALL ^ E_NOTICE ^ E_STRICT );
 
@@ -14,19 +13,21 @@ ini_set('session.use_cookies', '0');
 ini_set('magic_quotes_gpc','off');
 ini_set('magic_quotes_runtime','off');
 
-// Setup autoloader setup from Composer
+// Init autoloader setup from Composer
 if (!include_once(__DIR__.'/vendor/autoload.php'))
 {
-    die('You must set up the project dependencies.');
+    die('Have you run composer over this project yet ?');
 }
 
 // Setup Cilex
-$app = new \Cilex\Application('I\'m broken, FIX ME!');
+$app = new \Cilex\Application('A little adventure of code', '1.0');
 
-// Register a configuration file
-$app->register(new \Cilex\Provider\ConfigServiceProvider(), array('config.path' => "./config"));
+// Registering Commands
+$app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\GetToken());
 
-//
-$app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\HelloWorldCommand());
+// TODO: Now write this class and make it send the token to us
+$app->command(new \CommonLedger\Jobs\SoftwareEngineer\Commands\SendToken());
+
+// Not run in strict (review it in strict)
 
 $app->run();

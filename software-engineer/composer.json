@@ -13,11 +13,12 @@
     "keywords": ["commonledger", "jobs", "software-engineer"],
     "autoload": {
         "psr-4": {
-            "CommonLedger\\Jobs\\SoftwareEngineer\\Commands\\": "library/"
+            "CommonLedger\\Jobs\\SoftwareEngineer\\Commands\\": "command/"
         }
     },
     "require": {
-        "cilex/cilex":  "1.1.*"
+        "cilex/cilex":  "1.1.*",
+        "guzzlehttp/guzzle": "5.0.*"
     },
     "support": {
         "issues": "https://github.org/commonledger/jobs/issues"
