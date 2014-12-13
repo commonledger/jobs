@@ -16,7 +16,7 @@ We expect you have knowledge of the following:
 
 Great, so you've passed the first step. That pretty much shows you're a seasoned PHP coder. 
 
-Now, there are no further instructions. It is up to __you__ to make this work, fix things if they're broken (they will be) and ensure the packet makes it to us containing your contact details when successfully running the code.
+Now, there are no further instructions. It is up to __you__ to make this work, if you need to write code (this is guaranteed) and also ensure the packet makes it to us containing your contact details when successfully running the code.
 
 > Hint: All the hints will be inside the code.
 
