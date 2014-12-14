@@ -1,4 +1,7 @@
-# The Common Ledger PHP Software Engineer test
+<p align="center">
+<img width="300" src="https://raw.githubusercontent.com/commonledger/jobs/master/assets/img/common-ledger-logo.png" alt="Common Ledger Logo"/>
+</p>
+# PHP Software Engineer test
 
 We're looking for a PHP Software Engineer, we want it to be you, but first you need to pass this test.
 
