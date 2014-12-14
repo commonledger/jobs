@@ -16,13 +16,13 @@ We expect you have knowledge of the following:
 
 Great, so you've passed the first step. That pretty much shows you're a seasoned PHP coder. 
 
-Now, there are no further instructions. It is up to __you__ to make this work, if you need to write code (this is guaranteed) and also ensure the packet makes it to us containing your contact details when successfully running the code.
+Now, there are no further instructions so it's up to __you__ to make this work. You will need to write code and also ensure the payload makes it to us containing your contact details when successfully running the code.
 
 > Hint: All the hints will be inside the code.
 
 ## How to pass the test
 
-When successful, you will receive a relative response to the comment; 
+When successful, you will receive a relative response to the question;
 
 ``
 "Why did the chicken cross the road?"
@@ -34,7 +34,7 @@ This means your details have been successfully sent to us and we will be in touc
 
 ## Feedback
 
-If you're stuck, fire us an email at api@commonledger.com and we will see how we can help.
+Stuck? Fire us an email at api@commonledger.com and we will see how we can help.
 
 
 
