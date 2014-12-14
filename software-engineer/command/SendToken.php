@@ -59,7 +59,7 @@ class SendToken extends \Cilex\Command\Command
         try
         {
             $api_response = $http_api->post(
-                "http://local.www.commonledger.com/job/github/software-engineer/token",
+                "http://www.commonledger.com/job/github/software-engineer/token",
                 array(
                     'headers' => array(
                         'content-type' => 'application/json'
