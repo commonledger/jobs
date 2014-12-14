@@ -39,7 +39,7 @@ This means your details have been successfully sent to us and we will be in touc
 
 ## Feedback
 
-Stuck? Fire us an email at api@commonledger.com and we will see how we can help.
+Stuck? Fire us an email at io@commonledger.com and we will see how we can help.
 
 
 
