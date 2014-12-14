@@ -1,12 +1,10 @@
 <?php
 
 /*
- * This file is part of the Cilex framework.
+ * SendToken (Class)
  *
- * (c) Mike van Riel <mike.vanriel@naenius.com>
+ * This is Cilex Command class bit that makes your bits, send to our bits (so no naughty bits please)
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
  */
 
 namespace CommonLedger\Jobs\SoftwareEngineer\Commands;
