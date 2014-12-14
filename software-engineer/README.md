@@ -3,6 +3,8 @@
 </p>
 # PHP Software Engineer test
 
+Job description: [Download PDF](http://www.commonledger.com/assets/pdf/jobs/201412-PHP-Software-Engineer.pdf)
+
 We're looking for a PHP Software Engineer, we want it to be you, but first you need to pass this test.
 
 ## Prerequisites
