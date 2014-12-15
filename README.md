@@ -1,11 +1,11 @@
 <p align="center">
 <img width="300" src="https://raw.githubusercontent.com/commonledger/jobs/master/assets/img/common-ledger-logo.png" alt="Common Ledger Logo"/>
 </p>
-# Jobs Board
+# Quest Board
 
-We're always looking for people like you, but first, you need to complete our coding adventure.
+We're always looking for adventurers like you, but first, you need to complete one of our coding adventures.
 
-## Current opportunities
+## Current Quests
 
 * [PHP Software Engineer](/software-engineer)
 
