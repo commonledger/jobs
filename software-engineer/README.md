@@ -3,7 +3,7 @@
 </p>
 # PHP Software Engineer - Bring your own Adventure
 
-Job description: [Download PDF](http://www.commonledger.com/assets/pdf/jobs/201412-PHP-Software-Engineer.pdf)
+Question description: [Download PDF](http://www.commonledger.com/assets/pdf/jobs/201412-PHP-Software-Engineer.pdf)
 
 We're looking for a PHP Software Engineer, we want it to be you, but first you need to complete our coding adventure.
 
