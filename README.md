@@ -7,7 +7,7 @@ We're always looking for adventurers like you, but first, you need to complete o
 
 ## Current Quests
 
-* [PHP Software Engineer](/software-engineer)
+* [.NET Desktop Engineer](/desktop-engineer)
 
 ======
 
