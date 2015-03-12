@@ -18,7 +18,7 @@ We expect you have knowledge of the following:
 
 ## Start the journey
 
-We are currently building the adventure, but don't stop here, get in touch at io@commonledger.com.
+We are currently building the code adventure for you to partake in, but don't stop here, get in touch at io@commonledger.com.
 
 We will have finished it in the coming week.
 
