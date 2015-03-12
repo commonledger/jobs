@@ -18,25 +18,9 @@ We expect you have knowledge of the following:
 
 ## Start the journey
 
-Great, so you've packed your bags. That pretty much shows you're a seasoned PHP coder.
+We are currently building the adventure, but don't stop here, get in touch at io@commonledger.com.
 
-Now, there are no further instructions so it's up to __you__ to complete this adventure. You will need to write code and also ensure the payload makes it to us containing your contact details when successfully running the code.
-
-> Hint: All the hints will be inside the code.
-
-## How do I know when I've clocked it ?
-
-You will receive a response to the question;
-
-``
-"Why did the chicken cross the road?"
-``
-
-This means your details have been successfully sent to us and we will be in touch shortly.
-
-__Onwards brave adventurer!__
-
-> If you find code is broken, and if you'd like bonus points you can issue a pull request with the patch and instructions on how to fix.
+We will have finished it in the coming week.
 
 ## Feedback
 
